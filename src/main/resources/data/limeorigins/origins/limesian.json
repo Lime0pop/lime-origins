@@ -1,13 +1,11 @@
 {
   "powers": [
-    "origins:fire_immunity",
-    "origins:elytra",
-    "origins:throw_ender_pearl",
-    "origins:fresh_air"
+    "limeorigins:dimensional_storage",
+    "limeorigins:spectral_vision"
   ],
-  "icon": "minecraft:ender_pearl",
-  "order": 4,
-  "impact": 1,
+  "icon": "minecraft:slime_ball",
+  "order": 1,
+  "impact": 2,
   "name": "Limesian",
-  "description": "Limesians can tag and teleport entities and access a custom pocket dimension, allowing for quick escapes or relocations."
+  "description": "Limesians have enhightened perception, and can control their own dimension, to an extent."
 }

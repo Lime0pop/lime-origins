@@ -1,0 +1,27 @@
+{
+
+  "type": "origins:multiple",
+
+  "name": "Spectral Vision",
+  "description": "Allows the player to detect entities through obstructions.",
+
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+
+  "spectral_vision": {
+    "type": "origins:entity_glow",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "use_teams": false,
+    "red": 0.0,
+    "green": 0.0,
+    "blue": 0.0
+  }
+}
