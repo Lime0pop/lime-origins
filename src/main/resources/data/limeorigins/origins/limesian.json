@@ -3,7 +3,8 @@
     "limeorigins:dimensional_storage",
     "limeorigins:limesian_phasing",
     "limeorigins:spectral_vision",
-    "origins:water_vulnerability"
+    "limeorigins:sacrafice",
+    "origins:light_armor"
   ],
   "icon": "minecraft:slime_ball",
   "order": 1,

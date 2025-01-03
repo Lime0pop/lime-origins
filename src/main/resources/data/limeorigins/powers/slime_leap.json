@@ -1,15 +1,20 @@
 {
-  "type": "origins:launch",
+  "type": "apoli:active_self",
   "name": "Slime Leap",
   "description": "Leap into the air and bounce!",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "y": 0.5,
+    "z": 2,
+    "space": "local"
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
   "cooldown": 100,
   "hud_render": {
-    "bar_index": 4
-  },
-  "sound": "minecraft:entity.slime.jump",
-  "speed": 2,
-  "key": {
-    "key": "key.origins.primary_active",
-    "continuous": true
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 14
   }
 }

@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Sacrafice",
+  "description": "You sacraficed half of your health for great power.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -10.0,
+    "operation": "addition"
+  }
+}

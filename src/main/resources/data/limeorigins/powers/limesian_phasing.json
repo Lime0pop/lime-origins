@@ -15,7 +15,7 @@
   "limesian_phasing": {
     "type": "origins:phasing",
     "blacklist": false,
-    "render_type": "blindness",
+    "render_type": "remove_blocks",
     "view_distance": 30,
     "phase_down_condition": {
       "type": "origins:and",
