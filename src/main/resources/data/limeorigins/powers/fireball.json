@@ -1,0 +1,17 @@
+{
+  "type": "origins:fire_projectile",
+  "name": "Fireball",
+  "description": "Shoot a fireball.",
+  "entity_type": "minecraft:fireball",
+  "cooldown": 100,
+  "hud_render": {
+    "should_render": true
+  },
+  "count": 1,
+  "interval": 0,
+  "divergence": 0,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

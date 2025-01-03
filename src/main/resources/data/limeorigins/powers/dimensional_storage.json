@@ -2,6 +2,7 @@
   "name": "Dimensional Storage",
   "description": "Open a small rift to access your own personal storage dimension! Items in this storage do not drop on death.",
   "type": "origins:inventory",
+  "title": "limeorigins.container.dimensional_storage",
   "container_type": "double_chest",
   "drop_on_death": false,
   "key": {

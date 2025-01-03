@@ -1,0 +1,57 @@
+{
+  "type": "origins:multiple",
+
+  "name": "Supersonic Speed",
+  "description": "Allows the player to go extremely fast when sprinting.",
+
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+
+  "supersonic_speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": 0.4,
+      "name": "Increased sprinting speed"
+    },
+    "tick_rate": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sprinting"
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        }
+      ]
+    }
+  },
+
+  "cancel_saturation_loss": {
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.0
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sprinting"
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        }
+      ]
+    }
+  }
+}

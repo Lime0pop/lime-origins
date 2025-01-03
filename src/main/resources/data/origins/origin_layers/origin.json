@@ -1,6 +1,8 @@
 {
   "replace": false,
   "origins": [
-    "limeorigins:limesian"
+    "limeorigins:limesian",
+    "limeorigins:mobian",
+    "limeorigins:iceologer"
   ]
 }

@@ -1,11 +1,14 @@
 {
   "powers": [
     "limeorigins:dimensional_storage",
-    "limeorigins:spectral_vision"
+    "limeorigins:limesian_phasing",
+    "limeorigins:spectral_vision",
+    "origins:translucent",
+    "origins:water_vulnerability"
   ],
   "icon": "minecraft:slime_ball",
   "order": 1,
-  "impact": 2,
+  "impact": 3,
   "name": "Limesian",
-  "description": "Limesians have enhightened perception, and can control their own dimension, to an extent."
+  "description": "Limesians have enhightened perception and have their own personal storage dimension."
 }
