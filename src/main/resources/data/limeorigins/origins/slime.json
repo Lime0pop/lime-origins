@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "limeorigins:slime_leap",
+    "limeorigins:bouncy",
+    "limeorigins:slimelike",
+    "limeorigins:flammable"
+  ],
+  "icon": "minecraft:slime_ball",
+  "order": 1,
+  "impact": 2,
+  "name": "Slime",
+  "description": "Slimes have a gelatinous body, making them bouncy and flammable!"
+}

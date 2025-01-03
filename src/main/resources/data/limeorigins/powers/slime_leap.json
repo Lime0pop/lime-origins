@@ -1,0 +1,15 @@
+{
+  "type": "origins:launch",
+  "name": "Slime Leap",
+  "description": "Leap into the air and bounce!",
+  "cooldown": 100,
+  "hud_render": {
+    "bar_index": 4
+  },
+  "sound": "minecraft:entity.slime.jump",
+  "speed": 2,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  }
+}

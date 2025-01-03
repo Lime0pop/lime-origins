@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "limeorigins:supersonic_speed",
+    "limeorigins:fireball",
+    "origins:fire_immunity",
+    "limeorigins:lava_vision",
+    "limeorigins:slow_in_water",
+    "origins:vegetarian"
+
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 1,
+  "impact": 2,
+  "name": "Mobian",
+  "description": "Mobians descended from a famous red and black Hedgehog. Can run at supersonic speeds, is resistant to fire, and can shoot fireballs."
+}
