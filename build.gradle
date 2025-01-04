@@ -36,6 +36,9 @@ repositories {
 	maven {
 		url "https://maven.terraformersmc.com/"
 	}
+	maven {
+		url "https://cursemaven.com"
+	}
 }
 
 loom {
@@ -65,7 +68,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
-	
+
+	modImplementation files('libs/extrakeybinds-0.5.0+1.17-1.19.4.jar')
 }
 
 processResources {
