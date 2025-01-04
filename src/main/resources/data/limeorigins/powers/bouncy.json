@@ -8,6 +8,13 @@
       "should_render": false
     }
   },
+  "particle": {
+    "type": "origins:action_on_land",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "particle minecraft:item_slime ~ ~ ~ .3 0 .3 1 10 normal"
+    }
+  },
   "sound": {
     "type": "origins:action_on_land",
     "entity_action": {
