@@ -607,7 +607,7 @@
     }
   },
   "name": "Bouncy",
-  "description": "You bounce on any block as if it was a Slime Block",
+  "description": "Your bouncy body lets you bounce! (duh)",
   "no_fall_damage": {
     "type": "origins:invulnerability",
     "damage_condition": {

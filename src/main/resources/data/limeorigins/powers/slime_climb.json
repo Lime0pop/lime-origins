@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "name": "Slime Climb",
+  "description": "Your sticky body lets you climb and stick onto things.",
+  "climbing": {
+    "type": "origins:climbing",
+    "allow_holding": true,
+    "condition": {
+      "type": "origins:collided_horizontally"
+    },
+    "hold_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block_collision",
+          "offset_x": 0.01,
+          "offset_z": 0.01
+        },
+        {
+          "type": "origins:block_collision",
+          "offset_x": -0.01,
+          "offset_z": -0.01
+        }
+      ]
+    }
+  }
+}
