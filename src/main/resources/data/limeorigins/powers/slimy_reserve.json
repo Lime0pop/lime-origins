@@ -1,0 +1,11 @@
+{
+  "name": "Slimy Reserve",
+  "description": "Due to your gelatinous body being highly moldable, you can store items inside of it!",
+  "type": "origins:inventory",
+  "title": "limeorigins.container.slimy_reserve",
+  "container_type": "chest",
+  "drop_on_death": true,
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

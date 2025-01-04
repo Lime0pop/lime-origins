@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Fragile",
+  "description": "Being naturally weaker than a human, you only have 7 hearts.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -6.0,
+    "operation": "addition"
+  }
+}

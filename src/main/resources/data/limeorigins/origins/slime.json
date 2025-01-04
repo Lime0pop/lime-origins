@@ -1,9 +1,11 @@
 {
   "powers": [
     "limeorigins:slime_leap",
+    "limeorigins:slimy_reserve",
     "limeorigins:bouncy",
     "limeorigins:slimelike",
-    "limeorigins:flammable"
+    "limeorigins:flammable",
+    "limeorigins:fragile"
   ],
   "icon": "minecraft:slime_ball",
   "order": 1,

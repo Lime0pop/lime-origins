@@ -4,8 +4,10 @@
     "limeorigins:fireball",
     "origins:fire_immunity",
     "limeorigins:lava_vision",
-    "limeorigins:slow_in_water",
-    "origins:vegetarian"
+    "limeorigins:hydrophobic",
+    "limeorigins:soggy_spikes",
+    "limeorigins:fragile"
+
 
   ],
   "icon": "minecraft:fire_charge",
