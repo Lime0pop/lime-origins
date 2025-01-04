@@ -20,7 +20,7 @@
       "value": 0.2,
       "name": "Increased sprinting speed"
     },
-    "tick_rate": 0.01,
+    "tick_rate": 1,
     "condition": {
       "type": "origins:and",
       "conditions": [
