@@ -1,6 +1,5 @@
 {
   "type": "origins:multiple",
-
   "name": "Phasing",
   "description": "Allows the player to phase through walls.",
 
@@ -15,7 +14,7 @@
   "limesian_phasing": {
     "type": "origins:phasing",
     "blacklist": false,
-    "render_type": "remove_blocks",
+    "render_type": "blindness",
     "view_distance": 30,
     "phase_down_condition": {
       "type": "origins:and",

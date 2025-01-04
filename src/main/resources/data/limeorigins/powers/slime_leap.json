@@ -3,10 +3,19 @@
   "name": "Slime Leap",
   "description": "Leap into the air and bounce!",
   "entity_action": {
-    "type": "origins:add_velocity",
-    "y": 0.5,
-    "z": 2,
-    "space": "local"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 0.5,
+        "z": 2,
+        "space": "local"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.ender_dragon.flap"
+      }
+    ]
   },
   "key": {
     "key": "key.origins.primary_active"

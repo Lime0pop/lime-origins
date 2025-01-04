@@ -6,7 +6,8 @@
     "limeorigins:slime_climb",
     "limeorigins:slimelike",
     "limeorigins:flammable",
-    "limeorigins:fragile"
+    "limeorigins:fragile",
+    "limeorigins:slimy_reserve_sound"
   ],
   "icon": "minecraft:slime_ball",
   "order": 1,

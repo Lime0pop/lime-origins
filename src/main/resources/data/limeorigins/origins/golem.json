@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "limeorigins:golemlike"
+  ],
+  "icon": "minecraft:iron_block",
+  "order": 1,
+  "impact": 2,
+  "name": "Golem",
+  "description": "temp"
+}

@@ -3,6 +3,7 @@
   "origins": [
     "limeorigins:limesian",
     "limeorigins:mobian",
-    "limeorigins:slime"
+    "limeorigins:slime",
+    "limeorigins:golem"
   ]
 }

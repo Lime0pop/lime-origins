@@ -607,7 +607,7 @@
     }
   },
   "name": "Bouncy",
-  "description": "Your bouncy body lets you bounce! (duh)",
+  "description": "Your bouncy body lets you bounce! (duh). Hold space to stop bouncing.",
   "no_fall_damage": {
     "type": "origins:invulnerability",
     "damage_condition": {
