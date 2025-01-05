@@ -70,12 +70,12 @@
       },
       "finalize": {
         "type": "origins:command",
-        "command": "execute at @s run tp @s <posX> <posY> <posZ>"
+        "command": "execute at @s run tp @s ~ ~ ~"
       }
     },
     "remove_box": {
       "type": "command",
-      "command": "execute at @s unless entity @e[x=~-5,y=~-5,z=~-5,dx=10,dy=10,dz=10,limit=1,sort=nearest,distance=..0.1] run function your_namespace:box_empty_action\n"
+      "command": "execute at @s unless entity @e[x=~-25,y=~-25,z=~-25,dx=50,dy=50,dz=50,limit=1,sort=nearest,distance=..0.1] run execute at @s run fill ~-25 ~-25 ~-25 ~25 ~25 ~25 minecraft:air"
     }
   }
 }
