@@ -1,0 +1,11 @@
+{
+  "name": "Pocket Dimension",
+  "description": "Teleport in and out of your own personal pocket dimension!",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "type": "active_self",
+  "entity_action": {
+
+  }
+}

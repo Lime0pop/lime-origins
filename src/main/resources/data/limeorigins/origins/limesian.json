@@ -1,15 +1,14 @@
 {
   "powers": [
-    "limeorigins:dimensional_storage",
     "limeorigins:limesian_phasing",
+    "limeorigins:pocket_dimension",
     "limeorigins:spectral_vision",
     "limeorigins:sacrafice",
-    "origins:light_armor",
-    "limeorigins:dimensional_storage_sound"
+    "origins:light_armor"
   ],
   "icon": "minecraft:ender_eye",
   "order": 1,
   "impact": 3,
   "name": "Limesian",
-  "description": "Limesians have enhightened perception and have their own personal storage dimension."
+  "description": "Limesians have enhightened perception and have control over their own personal pocket dimension."
 }
