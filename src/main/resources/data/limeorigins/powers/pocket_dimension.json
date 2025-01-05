@@ -1,11 +1,81 @@
 {
   "name": "Pocket Dimension",
   "description": "Teleport in and out of your own personal pocket dimension!",
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "limeorigins:limesian_pocket_dimension",
+    "inverted": true
+  },
   "key": {
     "key": "key.origins.secondary_active"
   },
   "type": "active_self",
-  "entity_action": {
-
+  "if_action": {
+    "type": "origins:and",
+    "save_position": {
+      "type": "origins:multiple",
+      "x": {
+        "type": "command",
+        "command": "execute store result storage limeorigins:storage posX int 1 run data get entity @s Position[0]"
+      },
+      "y": {
+        "type": "command",
+        "command": "execute store result storage limeorigins:storage posY int 1 run data get entity @s Position[1]"
+      },
+      "z": {
+        "type": "command",
+        "command": "execute store result storage limeorigins:storage posZ int 1 run data get entity @s Position[2]"
+      }
+    },
+    "to_dimension": {
+      "type": "origins:execute_command",
+      "command": "execute in limeorigins:limesian_pocket_dimension run tp @s 0 100 0"
+    },
+    "random_tp": {
+      "type": "origins:random_teleport",
+      "area_width": 1000000,
+      "area_height": 0,
+      "landing_block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:air"
+      },
+      "create_box": {
+        "type": "multiple",
+        "bedrock": {
+          "type": "command",
+          "command": "execute at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:bedrock"
+        },
+        "air": {
+          "type": "command",
+          "command": "execute at @s run fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air"
+        }
+      }
+    }
+  },
+  "else_action": {
+    "type": "origins:and",
+    "teleport": {
+      "type": "multiple",
+      "x": {
+        "type": "command",
+        "command": "execute store result @s position[0] run data get storage limeorigins:storage posX"
+      },
+      "y": {
+        "type": "command",
+        "command": "execute store result @s position[1] run data get storage limeorigins:storage posY"
+      },
+      "z": {
+        "type": "command",
+        "command": "execute store result @s position[2] run data get storage limeorigins:storage posZ"
+      },
+      "finalize": {
+        "type": "origins:command",
+        "command": "execute at @s run tp @s <posX> <posY> <posZ>"
+      }
+    },
+    "remove_box": {
+      "type": "command",
+      "command": "execute at @s unless entity @e[x=~-5,y=~-5,z=~-5,dx=10,dy=10,dz=10,limit=1,sort=nearest,distance=..0.1] run function your_namespace:box_empty_action\n"
+    }
   }
 }
