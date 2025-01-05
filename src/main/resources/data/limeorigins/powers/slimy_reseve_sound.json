@@ -1,12 +1,18 @@
 {
-  "type": "origins:active_self",
+  "type": "origins:multiple",
   "hidden": true,
-  "condition": {
-    "type": "origins:power_active",
-    "power": "limeorigins:slimy_reserve"
-  },
-  "entity_action": {
-    "type": "origins:play_sound",
-    "sound": "minecraft:block.slime_block.break"
-  }
+  "actions": [
+    {
+      "type": "origins:action_self",
+      "interval": 1,
+      "entity_action": {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.slime_block.break",
+        "condition": {
+          "type": "origins:power_active",
+          "power": "limeorigins:slimy_reserve"
+        }
+      }
+    }
+  ]
 }

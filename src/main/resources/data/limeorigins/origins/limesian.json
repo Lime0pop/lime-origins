@@ -4,7 +4,8 @@
     "limeorigins:pocket_dimension",
     "limeorigins:spectral_vision",
     "limeorigins:sacrafice",
-    "origins:light_armor"
+    "origins:light_armor",
+    "limeorigins:entered_dimension"
   ],
   "icon": "minecraft:ender_eye",
   "order": 1,

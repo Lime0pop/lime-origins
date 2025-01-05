@@ -9,73 +9,59 @@
   "key": {
     "key": "key.origins.secondary_active"
   },
-  "type": "active_self",
-  "if_action": {
-    "type": "origins:and",
-    "save_position": {
-      "type": "origins:multiple",
-      "x": {
-        "type": "command",
-        "command": "execute store result storage limeorigins:storage posX int 1 run data get entity @s Position[0]"
-      },
-      "y": {
-        "type": "command",
-        "command": "execute store result storage limeorigins:storage posY int 1 run data get entity @s Position[1]"
-      },
-      "z": {
-        "type": "command",
-        "command": "execute store result storage limeorigins:storage posZ int 1 run data get entity @s Position[2]"
-      }
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:dimension",
+      "dimension": "limeorigins:limesian_pocket_dimension",
+      "inverted": true
     },
-    "to_dimension": {
-      "type": "origins:execute_command",
-      "command": "execute in limeorigins:limesian_pocket_dimension run tp @s 0 100 0"
-    },
-    "random_tp": {
-      "type": "origins:random_teleport",
-      "area_width": 1000000,
-      "area_height": 0,
-      "landing_block_condition": {
-        "type": "origins:in_tag",
-        "tag": "minecraft:air"
-      },
-      "create_box": {
-        "type": "multiple",
-        "bedrock": {
-          "type": "command",
-          "command": "execute at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 minecraft:bedrock"
+    "if_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result storage limeorigins:storage posX int 1 run data get entity @s Position[0]"
         },
-        "air": {
-          "type": "command",
-          "command": "execute at @s run fill ~-4 ~-4 ~-4 ~4 ~4 ~4 minecraft:air"
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result storage limeorigins:storage posY int 1 run data get entity @s Position[1]"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result storage limeorigins:storage posZ int 1 run data get entity @s Position[2]"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute in limeorigins:limesian_pocket_dimension run tp @s 0 100 0"
         }
-      }
-    }
-  },
-  "else_action": {
-    "type": "origins:and",
-    "teleport": {
-      "type": "multiple",
-      "x": {
-        "type": "command",
-        "command": "execute store result @s position[0] run data get storage limeorigins:storage posX"
-      },
-      "y": {
-        "type": "command",
-        "command": "execute store result @s position[1] run data get storage limeorigins:storage posY"
-      },
-      "z": {
-        "type": "command",
-        "command": "execute store result @s position[2] run data get storage limeorigins:storage posZ"
-      },
-      "finalize": {
-        "type": "origins:command",
-        "command": "execute at @s run tp @s ~ ~ ~"
-      }
+      ]
     },
-    "remove_box": {
-      "type": "command",
-      "command": "execute at @s unless entity @e[x=~-25,y=~-25,z=~-25,dx=50,dy=50,dz=50,limit=1,sort=nearest,distance=..0.1] run execute at @s run fill ~-25 ~-25 ~-25 ~25 ~25 ~25 minecraft:air"
+    "else_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result @s position[0] run data get storage limeorigins:storage posX"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result @s position[1] run data get storage limeorigins:storage posY"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result @s position[2] run data get storage limeorigins:storage posZ"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run tp @s ~ ~ ~"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s unless entity @e[x=~-25,y=~-25,z=~-25,dx=50,dy=50,dz=50,limit=1,sort=nearest,distance=..0.1] run execute at @s run fill ~-25 ~-25 ~-25 ~25 ~25 ~25 minecraft:air"
+        }
+      ]
     }
   }
 }
