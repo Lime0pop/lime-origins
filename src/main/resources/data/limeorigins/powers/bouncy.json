@@ -385,7 +385,7 @@
     },
     "condition": {
       "type": "origins:or",
-      "condition": [
+      "conditions": [
         {
           "type": "origins:sneaking"
         },
@@ -404,7 +404,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -427,7 +427,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -450,7 +450,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -473,7 +473,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -496,7 +496,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -519,7 +519,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -542,7 +542,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -565,7 +565,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
@@ -588,7 +588,7 @@
         {
           "condition": {
             "type": "origins:and",
-            "condition": [
+            "conditions": [
               {
                 "type": "origins:fall_distance",
                 "comparison": ">",

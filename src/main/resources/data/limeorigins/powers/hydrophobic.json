@@ -11,7 +11,7 @@
   "protection_effectiveness": 1.0,
   "condition": {
     "type": "origins:or",
-    "condition": [
+    "conditions": [
       {
         "type": "origins:fluid_height",
         "fluid": "minecraft:water",

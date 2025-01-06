@@ -10,7 +10,7 @@
     },
     "hold_condition": {
       "type": "origins:or",
-      "condition": [
+      "conditions": [
         {
           "type": "origins:block_collision",
           "offset_x": 0.01,
