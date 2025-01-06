@@ -1,0 +1,20 @@
+"actions": [
+{
+"type": "origins:execute_command",
+"command": "execute in limeorigins:pocket_dim_1 run tp @s 0 100 0"
+},
+{
+"type": "origins:execute_command",
+"command": "execute in limeorigins:pocket_dim_1 run fill -8 95 -8 7 105 7 bedrock hollow"
+},
+{
+"type": "origins:execute_command",
+"command": "scoreboard players set @a dim_1 1"
+},
+{
+"type": "origins:execute_command",
+"command": "scoreboard players set @s dim_owned 1"
+}
+]
+}
+}

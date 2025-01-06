@@ -1,0 +1,17 @@
+{
+  "type": "origins:active_self",
+  "name": "Iron Smash",
+  "description": "You leap up into the air, creating a devastating shockwave when you land, damaging nearby entities.",
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "y": 1.5
+      }
+    ]
+  }
+}
