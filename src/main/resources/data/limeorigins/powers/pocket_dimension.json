@@ -654,7 +654,7 @@
             "type": "origins:if_else_list",
             "actions": [
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -666,7 +666,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -678,7 +678,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -690,7 +690,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -702,7 +702,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -714,7 +714,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -726,7 +726,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -738,7 +738,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -750,7 +750,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -762,7 +762,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -774,7 +774,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -786,7 +786,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -798,7 +798,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -810,7 +810,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -822,7 +822,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -834,7 +834,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -846,7 +846,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -858,7 +858,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -870,7 +870,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",
@@ -882,7 +882,7 @@
                 }
               },
               {
-                "conditions": {
+                "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_owned",
                   "comparison": "==",

@@ -23,7 +23,7 @@
     "tick_rate": 1,
     "condition": {
       "type": "origins:and",
-      "conditions": [
+      "condition": [
         {
           "type": "origins:sprinting"
         },

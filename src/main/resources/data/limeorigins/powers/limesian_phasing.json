@@ -22,7 +22,7 @@
     },
     "phase_down_condition": {
       "type": "origins:and",
-      "conditions": [
+      "condition": [
         {
           "type": "origins:sneaking"
         },
