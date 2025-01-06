@@ -17,877 +17,888 @@
     },
 
     "if_action": {
-      "type": "origins:if_else",
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:and",
+          "actions": [
 
-      "condition": {
-        "type": "origins:scoreboard",
-        "objective": "dim_owned",
-        "comparison": "==",
-        "compare_to": 0
-      },
+          ]
+        },
+        {
+          "type": "origins:if_else",
 
-      "if_action": {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 0
+          },
 
-        "type": "origins:if_else_list",
-        "actions": [
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_1",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+          "if_action": {
+
+            "type": "origins:if_else_list",
+            "actions": [
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_1",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_1 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_1 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_1 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 1"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_2",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_2 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_2 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_2 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 2"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_3",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_3 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_3 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_3 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 3"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_4",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_4 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_4 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_4 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 4"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_5",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_5 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_5 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_5 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 5"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_6",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_6 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_6 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_6 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 6"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_7",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_7 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_7 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_7 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 7"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_8",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_8 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_8 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_8 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 8"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_9",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_9 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_9 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 9"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_9",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_9 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_9 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 9"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_10",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_10 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_10 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_10 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 10"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_11",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_11 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_11 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_11 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 11"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_12",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_12 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_12 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_12 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 12"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_13",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_13 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_13 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_13 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 13"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_14",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_14 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_14 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_14 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 14"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_15",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_15 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_15 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_15 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 15"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_16",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_16 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_16 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_16 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 16"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_17",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_17 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_17 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_17 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 17"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_18",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_18 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_18 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_18 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 18"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_19",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_19 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_19 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_19 1"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 19"
+                    }
+                  ]
+                }
+              },
+              {
+                "condition": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_20",
+                  "comparison": "==",
+                  "compare_to": 0
+                },
+                "action": {
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_20 run tp @s 0 100 0"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_20 run fill -8 95 -8 7 105 7 bedrock hollow"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @a dim_1 20"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "scoreboard players set @s dim_owned 1"
+                    }
+                  ]
+                }
+              }
+            ]
+
+          },
+
+          "else_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 1
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_1 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_1 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_1 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 1"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_2",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 2
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_2 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_2 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_2 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 2"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_3",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 3
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_3 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_3 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_3 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 3"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_4",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 4
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_4 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_4 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_4 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 4"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_5",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 5
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_5 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_5 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_5 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 5"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_6",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 6
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_6 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_6 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_6 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 6"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_7",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 7
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_7 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_7 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_7 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 7"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_8",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 8
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_8 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_8 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_8 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 8"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_9",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 9
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_9 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_9 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 9"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_9",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 10
                 },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_9 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_9 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 9"
-                }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_10",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_10 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_10 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_10 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 10"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_11",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 11
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_11 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_11 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_11 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 11"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_12",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 12
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_12 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_12 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_12 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 12"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_13",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 13
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_13 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_13 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_13 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 13"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_14",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 14
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_14 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_14 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_14 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 14"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_15",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 15
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_15 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_15 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_15 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 15"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_16",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 16
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_16 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_16 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_16 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 16"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_17",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 17
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_17 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_17 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_17 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 17"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_18",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 18
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_18 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_18 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_18 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 18"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_19",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 19
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_19 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_19 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_19 1"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 19"
                 }
-              ]
-            }
-          },
-          {
-            "condition": {
-              "type": "origins:scoreboard",
-              "objective": "dim_20",
-              "comparison": "==",
-              "compare_to": 0
-            },
-            "action": {
-              "type": "origins:and",
-              "actions": [
-                {
+              },
+              {
+                "conditions": {
+                  "type": "origins:scoreboard",
+                  "objective": "dim_owned",
+                  "comparison": "==",
+                  "compare_to": 20
+                },
+                "action": {
                   "type": "origins:execute_command",
                   "command": "execute in limeorigins:pocket_dim_20 run tp @s 0 100 0"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_20 run fill -8 95 -8 7 105 7 bedrock hollow"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @a dim_1 20"
-                },
-                {
-                  "type": "origins:execute_command",
-                  "command": "scoreboard players set @s dim_owned 1"
                 }
-              ]
-            }
+              }
+            ]
           }
-        ]
-
-      },
-
-      "else_action": {
-        "type": "origins:if_else_list",
-        "actions": [
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 1
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_1 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 2
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_2 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 3
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_3 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 4
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_4 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 5
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_5 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 6
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_6 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 7
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_7 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 8
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_8 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 9
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 10
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_10 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 11
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_11 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 12
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_12 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 13
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_13 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 14
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_14 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 15
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_15 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 16
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_16 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 17
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_17 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 18
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_18 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 19
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_19 run tp @s 0 100 0"
-            }
-          },
-          {
-            "conditions": {
-              "type": "origins:scoreboard",
-              "objective": "dim_owned",
-              "comparison": "==",
-              "compare_to": 20
-            },
-            "action": {
-              "type": "origins:execute_command",
-              "command": "execute in limeorigins:pocket_dim_20 run tp @s 0 100 0"
-            }
-          }
-        ]
-      }
+        }
+      ]
     },
 
     "else_action": {
