@@ -20,10 +20,8 @@
       "type": "origins:and",
       "actions": [
         {
-          "type": "origins:and",
-          "actions": [
-
-          ]
+          "type": "origins:execute_command",
+          "command": "execute at @s run summon marker ~ ~ ~ {CustomName:'{\"text\":\"<uuid>\"}'}\n"
         },
         {
           "type": "origins:if_else",
@@ -902,7 +900,17 @@
     },
 
     "else_action": {
-
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "tp @s @e[type=marker,name=<uuid>,limit=1]\n"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "kill @e[type=marker,name=<uuid>,limit=1]\n"
+        }
+      ]
     }
   }
 }
