@@ -39,5 +39,12 @@
       "type": "origins:name",
       "name": "fall"
     }
+  },
+  "air_speed": {
+    "type": "origins:modify_air_speed",
+    "modifier": {
+      "operation": "addition",
+      "value": -0.05
+    }
   }
 }

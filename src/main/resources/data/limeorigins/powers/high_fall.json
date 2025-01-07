@@ -1,0 +1,30 @@
+{
+  "type": "origins:action_on_land",
+  "name": "Heavy Metal",
+  "description": "Due to your body being made of heavy metal, hitting the ground from more than 8 blocks high throws nearby entities into the air!",
+  "condition": {
+    "type": "origins:fall_distance",
+    "comparison": ">=",
+    "compare_to": "8"
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 10,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:add_velocity",
+            "y": 2
+          },
+          {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.anvil.land"
+          }
+        ]
+      }
+    }
+  }
+}
