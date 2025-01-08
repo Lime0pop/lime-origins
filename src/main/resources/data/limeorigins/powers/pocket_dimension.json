@@ -1,7 +1,12 @@
 {
   "name": "Pocket Dimension",
   "description": "Teleport in and out of your own personal pocket dimension!",
-
+  "cooldown": 40,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 7,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png"
+  },
   "key": {
     "key": "key.origins.secondary_active"
   },
@@ -49,7 +54,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_1 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -95,7 +100,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_3 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_3 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -120,7 +125,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_4 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_4 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -145,7 +150,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_5 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_5 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -170,7 +175,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_6 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_6 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -195,7 +200,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_7 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_7 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -220,7 +225,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_8 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_8 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -245,7 +250,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_9 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -270,7 +275,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_10 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_10 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -295,7 +300,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_11 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_11 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -320,7 +325,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_12 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_12 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -345,7 +350,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_13 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_13 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -370,7 +375,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_14 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_14 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -395,7 +400,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_15 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_15 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -420,7 +425,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_16 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_16 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -445,7 +450,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_17 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_17 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -470,7 +475,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_18 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_18 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -495,7 +500,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_19 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_19 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -520,7 +525,7 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
-                      "command": "execute in limeorigins:pocket_dim_20 run tp @s 0 100 0"
+                      "command": "execute in limeorigins:pocket_dim_20 run tp @s 500 97 500"
                     },
                     {
                       "type": "origins:execute_command",
@@ -549,7 +554,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_1 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
                 }
               },
               {
@@ -561,7 +566,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_2 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_2 run tp @s 500 97 500"
                 }
               },
               {
@@ -573,7 +578,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_3 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_3 run tp @s 500 97 500"
                 }
               },
               {
@@ -585,7 +590,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_4 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_4 run tp @s 500 97 500"
                 }
               },
               {
@@ -597,7 +602,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_5 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_5 run tp @s 500 97 500"
                 }
               },
               {
@@ -609,7 +614,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_6 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_6 run tp @s 500 97 500"
                 }
               },
               {
@@ -621,7 +626,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_7 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_7 run tp @s 500 97 500"
                 }
               },
               {
@@ -633,7 +638,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_8 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_8 run tp @s 500 97 500"
                 }
               },
               {
@@ -645,7 +650,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_9 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_9 run tp @s 500 97 500"
                 }
               },
               {
@@ -657,7 +662,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_10 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_10 run tp @s 500 97 500"
                 }
               },
               {
@@ -669,7 +674,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_11 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_11 run tp @s 500 97 500"
                 }
               },
               {
@@ -681,7 +686,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_12 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_12 run tp @s 500 97 500"
                 }
               },
               {
@@ -693,7 +698,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_13 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_13 run tp @s 500 97 500"
                 }
               },
               {
@@ -705,7 +710,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_14 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_14 run tp @s 500 97 500"
                 }
               },
               {
@@ -717,7 +722,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_15 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_15 run tp @s 500 97 500"
                 }
               },
               {
@@ -729,7 +734,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_16 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_16 run tp @s 500 97 500"
                 }
               },
               {
@@ -741,7 +746,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_17 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_17 run tp @s 500 97 500"
                 }
               },
               {
@@ -753,7 +758,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_18 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_18 run tp @s 500 97 500"
                 }
               },
               {
@@ -765,7 +770,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_19 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_19 run tp @s 500 97 500"
                 }
               },
               {
@@ -777,7 +782,7 @@
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_20 run tp @s 0 97 0"
+                  "command": "execute in limeorigins:pocket_dim_20 run tp @s 500 97 500"
                 }
               }
             ]
