@@ -1,4 +1,5 @@
 scoreboard objectives add dim_owned dummy
+scoreboard objectives add markerdim dummy
 scoreboard objectives add dim_1 dummy
 scoreboard objectives add dim_2 dummy
 scoreboard objectives add dim_3 dummy
@@ -20,6 +21,7 @@ scoreboard objectives add dim_18 dummy
 scoreboard objectives add dim_19 dummy
 scoreboard objectives add dim_20 dummy
 scoreboard players set @a dim_owned 0
+scoreboard players set @e markerdim 0
 scoreboard players set @a dim_1 0
 scoreboard players set @a dim_2 0
 scoreboard players set @a dim_3 0

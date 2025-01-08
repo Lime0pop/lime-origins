@@ -14,8 +14,9 @@
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:if_else",
-    "conditions": [
-      [
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
         {
           "type": "origins:dimension",
           "dimension": "limeorigins:pocket_dim_1",
@@ -117,16 +118,11 @@
           "inverted": true
         }
       ]
-
-    ],
+    },
 
     "if_action": {
       "type": "origins:and",
       "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "execute at @s run summon marker ~ ~ ~ {CustomName:'{\"text\":\"<uuid>\"}'}\n"
-        },
         {
           "type": "origins:if_else",
 
@@ -151,6 +147,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim1\"]}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
@@ -178,6 +178,14 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim2\"]}"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "scoreboard players set @a dim_2 1"
                     },
                     {
@@ -197,6 +205,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_3 run tp @s 500 97 500"
@@ -224,6 +236,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_4 run tp @s 500 97 500"
                     },
                     {
@@ -247,6 +263,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_5 run tp @s 500 97 500"
@@ -274,6 +294,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_6 run tp @s 500 97 500"
                     },
                     {
@@ -297,6 +321,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_7 run tp @s 500 97 500"
@@ -324,6 +352,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_8 run tp @s 500 97 500"
                     },
                     {
@@ -347,6 +379,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_9 run tp @s 500 97 500"
@@ -374,6 +410,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_10 run tp @s 500 97 500"
                     },
                     {
@@ -397,6 +437,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_11 run tp @s 500 97 500"
@@ -424,6 +468,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_12 run tp @s 500 97 500"
                     },
                     {
@@ -447,6 +495,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_13 run tp @s 500 97 500"
@@ -474,6 +526,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_14 run tp @s 500 97 500"
                     },
                     {
@@ -497,6 +553,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_15 run tp @s 500 97 500"
@@ -524,6 +584,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_16 run tp @s 500 97 500"
                     },
                     {
@@ -547,6 +611,10 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_17 run tp @s 500 97 500"
@@ -574,6 +642,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_18 run tp @s 500 97 500"
                     },
                     {
@@ -599,6 +671,10 @@
                   "actions": [
                     {
                       "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~ {CustomName:\"\\\"<markerdim1>\\\"\"}"
+                    },
+                    {
+                      "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_19 run tp @s 500 97 500"
                     },
                     {
@@ -622,6 +698,14 @@
                 "action": {
                   "type": "origins:and",
                   "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute at @s run summon marker ~ ~ ~"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute as @e[type=marker, sort=nearest, limit=1] run scoreboard players set @s markerdim 1"
+                    },
                     {
                       "type": "origins:execute_command",
                       "command": "execute in limeorigins:pocket_dim_20 run tp @s 500 97 500"
@@ -652,10 +736,19 @@
                   "compare_to": 1
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
-                }
-              },
+                    "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim1\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -664,10 +757,19 @@
                   "compare_to": 2
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_2 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_2 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim2\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -676,10 +778,19 @@
                   "compare_to": 3
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_3 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_3 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim3\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -688,10 +799,19 @@
                   "compare_to": 4
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_4 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_4 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim4\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -700,10 +820,19 @@
                   "compare_to": 5
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_5 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_5 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim5\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -712,10 +841,19 @@
                   "compare_to": 6
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_6 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_6 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim6\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -724,8 +862,17 @@
                   "compare_to": 7
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_7 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_1 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim7\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -736,8 +883,17 @@
                   "compare_to": 8
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_8 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_8 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim8\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -748,8 +904,17 @@
                   "compare_to": 9
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_9 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_9 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim9\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -760,8 +925,17 @@
                   "compare_to": 10
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_10 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_10 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim10\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -772,10 +946,19 @@
                   "compare_to": 11
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_11 run tp @s 500 97 500"
-                }
-              },
+                  "type": "origins:and",
+                    "actions": [
+                      {
+                        "type": "origins:execute_command",
+                        "command": "execute in limeorigins:pocket_dim_11 run tp @s 500 97 500"
+                      },
+                      {
+                        "type": "origins:execute_command",
+                        "command": "summon marker ~ ~ ~ {Tags:[\"markerdim11\"]}"
+                      }
+                    ]
+                  }
+                },
               {
                 "condition": {
                   "type": "origins:scoreboard",
@@ -784,8 +967,17 @@
                   "compare_to": 12
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_12 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_12 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim12\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -796,8 +988,17 @@
                   "compare_to": 13
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_13 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_13 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim13\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -808,8 +1009,17 @@
                   "compare_to": 14
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_14 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_14 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim14\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -820,8 +1030,17 @@
                   "compare_to": 15
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_15 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_15 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim15\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -832,8 +1051,17 @@
                   "compare_to": 16
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_16 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_16 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim16\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -844,8 +1072,17 @@
                   "compare_to": 17
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_17 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_17 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim17\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -856,8 +1093,17 @@
                   "compare_to": 18
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_18 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_18 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim18\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -868,8 +1114,17 @@
                   "compare_to": 19
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_19 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_19 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim19\"]}"
+                    }
+                  ]
                 }
               },
               {
@@ -880,8 +1135,17 @@
                   "compare_to": 20
                 },
                 "action": {
-                  "type": "origins:execute_command",
-                  "command": "execute in limeorigins:pocket_dim_20 run tp @s 500 97 500"
+                  "type": "origins:and",
+                  "actions": [
+                    {
+                      "type": "origins:execute_command",
+                      "command": "execute in limeorigins:pocket_dim_20 run tp @s 500 97 500"
+                    },
+                    {
+                      "type": "origins:execute_command",
+                      "command": "summon marker ~ ~ ~ {Tags:[\"markerdim20\"]}"
+                    }
+                  ]
                 }
               }
             ]
@@ -891,15 +1155,247 @@
     },
 
     "else_action": {
-      "type": "origins:and",
+      "type": "origins:if_else_list",
       "actions": [
         {
-          "type": "origins:execute_command",
-          "command": "tp @s @e[type=marker,name=<uuid>,limit=1]\n"
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "1"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim1, limit=1]"
+          }
         },
         {
-          "type": "origins:execute_command",
-          "command": "kill @e[type=marker,name=<uuid>,limit=1]\n"
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "2"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim2, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "3"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim3, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "4"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim4, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "5"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim5, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "6"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim6, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "7"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim7, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "8"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim8, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "9"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim9, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "10"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim10, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "11"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim11, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "12"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim12, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "13"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim13, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "14"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim14, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "15"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim15, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "16"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim16, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "17"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim17, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "18"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim18, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "19"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim19, limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": "20"
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @s run tp @e[type=marker, tag=markerdim20, limit=1]"
+          }
         }
       ]
     }
