@@ -29,8 +29,8 @@
           "condition": {
             "type": "origins:scoreboard",
             "objective": "dim_owned",
-            "comparison": "==",
-            "compare_to": 0
+            "comparison": "!=",
+            "compare_to": 1
           },
 
           "if_action": {
@@ -41,8 +41,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_1",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -70,8 +70,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_2",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -99,8 +99,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_3",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -128,8 +128,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_4",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -157,8 +157,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_5",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -186,8 +186,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_6",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -215,8 +215,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_7",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -244,8 +244,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_8",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -273,8 +273,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_9",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -302,8 +302,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_9",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -331,8 +331,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_10",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -360,8 +360,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_11",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -389,8 +389,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_12",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -418,8 +418,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_13",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -447,8 +447,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_14",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -476,8 +476,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_15",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -505,8 +505,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_16",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -534,8 +534,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_17",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -563,8 +563,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_18",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -592,8 +592,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_19",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
@@ -621,8 +621,8 @@
                 "condition": {
                   "type": "origins:scoreboard",
                   "objective": "dim_20",
-                  "comparison": "==",
-                  "compare_to": 0
+                  "comparison": "!=",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:and",
