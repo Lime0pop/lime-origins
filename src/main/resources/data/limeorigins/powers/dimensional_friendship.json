@@ -130,7 +130,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_1 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_1 run tp @s 500 100 500"
           }
         },
         {
@@ -142,7 +142,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_2 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_2 run tp @s 500 100 500"
           }
         },
         {
@@ -154,7 +154,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_3 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_3 run tp @s 500 100 500"
           }
         },
         {
@@ -166,7 +166,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_4 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_4 run tp @s 500 100 500"
           }
         },
         {
@@ -178,7 +178,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_5 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_5 run tp @s 500 100 500"
           }
         },
         {
@@ -190,7 +190,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_6 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_6 run tp @s 500 100 500"
           }
         },
         {
@@ -202,7 +202,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_7 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_7 run tp @s 500 100 500"
           }
         },
         {
@@ -214,7 +214,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_8 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_8 run tp @s 500 100 500"
           }
         },
         {
@@ -226,7 +226,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_9 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_9 run tp @s 500 100 500"
           }
         },
         {
@@ -238,7 +238,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_10 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_10 run tp @s 500 100 500"
           }
         },
         {
@@ -250,7 +250,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_11 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_11 run tp @s 500 100 500"
           }
         },
         {
@@ -262,7 +262,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_12 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_12 run tp @s 500 100 500"
           }
         },
         {
@@ -274,7 +274,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_13 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_13 run tp @s 500 100 500"
           }
         },
         {
@@ -286,7 +286,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_14 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_14 run tp @s 500 100 500"
           }
         },
         {
@@ -298,7 +298,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_15 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_15 run tp @s 500 100 500"
           }
         },
         {
@@ -310,7 +310,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_16 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_16 run tp @s 500 100 500"
           }
         },
         {
@@ -322,7 +322,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_17 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_17 run tp @s 500 100 500"
           }
         },
         {
@@ -334,7 +334,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_18 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_18 run tp @s 500 100 500"
           }
         },
         {
@@ -346,7 +346,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_19 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_19 run tp @s 500 100 500"
           }
         },
         {
@@ -358,7 +358,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_20 run tp @s 500 100 500"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run execute in limeorigins:pocket_dim_20 run tp @s 500 100 500"
           }
         }
       ]
@@ -375,7 +375,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim1,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim1,limit=1]"
           }
         },
         {
@@ -387,7 +387,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim2,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim2,limit=1]"
           }
         },
         {
@@ -399,7 +399,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim3,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim3,limit=1]"
           }
         },
         {
@@ -411,7 +411,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim4,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim4,limit=1]"
           }
         },
         {
@@ -423,7 +423,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim5,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim5,limit=1]"
           }
         },
         {
@@ -435,7 +435,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim6,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim6,limit=1]"
           }
         },
         {
@@ -447,7 +447,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim7,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim7,limit=1]"
           }
         },
         {
@@ -459,7 +459,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim8,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim8,limit=1]"
           }
         },
         {
@@ -471,7 +471,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim9,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim9,limit=1]"
           }
         },
         {
@@ -483,7 +483,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim10,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim10,limit=1]"
           }
         },
         {
@@ -495,7 +495,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim11,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim11,limit=1]"
           }
         },
         {
@@ -507,7 +507,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim12,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim12,limit=1]"
           }
         },
         {
@@ -519,7 +519,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim13,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim13,limit=1]"
           }
         },
         {
@@ -531,7 +531,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim14,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim14,limit=1]"
           }
         },
         {
@@ -543,7 +543,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim15,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim15,limit=1]"
           }
         },
         {
@@ -555,7 +555,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim16,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim16,limit=1]"
           }
         },
         {
@@ -567,7 +567,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim17,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim17,limit=1]"
           }
         },
         {
@@ -579,7 +579,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim18,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim18,limit=1]"
           }
         },
         {
@@ -591,7 +591,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim19,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim19,limit=1]"
           }
         },
         {
@@ -603,7 +603,7 @@
           },
           "action": {
             "type": "origins:execute_command",
-            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim20,limit=1]"
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,type=!ender_dragon,type=!warden,type=!wither] run tp @s @e[type=marker,tag=markerdim20,limit=1]"
           }
         }
       ]
