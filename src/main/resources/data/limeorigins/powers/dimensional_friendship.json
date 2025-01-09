@@ -1,0 +1,612 @@
+{
+  "name": "Dimensional Friendship",
+  "description": "Bring the player or mob that is closest to you in or out of your dimension. You can't do this if you haven't gone into your dimension before.",
+  "key": {
+    "key": "key.origins.ternary_active"
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 7,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png"
+  },
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_1",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_2",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_3",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_4",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_5",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_6",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_7",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_8",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_9",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_10",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_11",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_12",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_13",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_14",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_15",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_16",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_17",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_18",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_19",
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "limeorigins:pocket_dim_20",
+          "inverted": true
+        }
+      ]
+    },
+    "if_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_1 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_2 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 3
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_3 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 4
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_4 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 5
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_5 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 6
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_6 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 7
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_7 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 8
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_8 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 9
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_9 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 10
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_10 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 11
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_11 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 12
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_12 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 13
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_13 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 14
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_14 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 15
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_15 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 16
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_16 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 17
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_17 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 18
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_18 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 19
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_19 run tp @s 500 100 500"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 20
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest,] run execute in limeorigins:pocket_dim_20 run tp @s 500 100 500"
+          }
+        }
+      ]
+    },
+    "else_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim1,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim2,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 3
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim3,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 4
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim4,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 5
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim5,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 6
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim6,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 7
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim7,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 8
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim8,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 9
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim9,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 10
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim10,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 11
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim11,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 12
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim12,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 13
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim13,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 14
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim14,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 15
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim15,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 16
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim16,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 17
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim17,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 18
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim18,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 19
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim19,limit=1]"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:scoreboard",
+            "objective": "dim_owned",
+            "comparison": "==",
+            "compare_to": 20
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "execute as @e[limit=1,distance=0.000001..2,sort=nearest] run tp @s @e[type=marker,tag=markerdim20,limit=1]"
+          }
+        }
+      ]
+      }
+    }
+  }
