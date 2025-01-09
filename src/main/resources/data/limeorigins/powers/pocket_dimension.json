@@ -129,8 +129,8 @@
           "condition": {
             "type": "origins:scoreboard",
             "objective": "dim_owned",
-            "comparison": "!=",
-            "compare_to": 1
+            "comparison": "==",
+            "compare_to": 0
           },
 
           "if_action": {
