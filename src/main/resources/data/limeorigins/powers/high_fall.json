@@ -17,7 +17,7 @@
         "actions": [
           {
             "type": "origins:add_velocity",
-            "y": 2
+            "y": 1
           },
           {
             "type": "origins:play_sound",

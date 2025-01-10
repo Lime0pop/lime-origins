@@ -9,7 +9,8 @@
         "type": "origins:add_velocity",
         "y": 0.5,
         "z": 2,
-        "space": "local"
+        "space": "local",
+        "set": true
       },
       {
         "type": "origins:play_sound",
