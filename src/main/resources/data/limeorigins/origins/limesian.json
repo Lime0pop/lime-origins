@@ -5,7 +5,8 @@
     "limeorigins:dimensional_friendship",
     "limeorigins:spectral_vision",
     "limeorigins:sacrafice",
-    "origins:light_armor"
+    "origins:light_armor",
+    "limeorigins:limesian_phasing_sound"
   ],
   "icon": "minecraft:ender_eye",
   "order": 1,

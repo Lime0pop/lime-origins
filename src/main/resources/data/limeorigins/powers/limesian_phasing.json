@@ -1,39 +1,36 @@
 {
-  "type": "origins:multiple",
+  "type": "origins:phasing",
   "name": "Phasing",
   "description": "Allows the player to phase through walls.",
-
-  "toggle": {
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "key": {
-      "key": "key.origins.primary_active"
-    }
+  "cooldown": 10,
+  "key": {
+    "key": "key.origins.primary_active"
   },
-
-  "limesian_phasing": {
-    "type": "origins:phasing",
-    "blacklist": true,
-    "render_type": "blindness",
-    "view_distance": 30,
-    "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "origins:unphasable"
-    },
-    "phase_down_condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:sneaking"
-        },
-        {
-          "type": "origins:on_block"
-        }
-      ]
-    },
-    "condition": {
-      "type": "origins:power_active",
-      "power": "*:*_toggle"
-    }
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+  },
+  "blacklist": true,
+  "render_type": "blindness",
+  "view_distance": 30,
+  "block_condition": {
+    "type": "origins:in_tag",
+    "tag": "origins:unphasable"
+  },
+  "phase_down_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:on_block"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "*:*_toggle"
   }
 }
