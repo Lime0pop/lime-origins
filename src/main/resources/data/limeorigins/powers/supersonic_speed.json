@@ -13,37 +13,51 @@
   },
 
   "supersonic_speed": {
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-      "attribute": "minecraft:generic.movement_speed",
-      "operation": "addition",
-      "value": 0.2,
-      "name": "Increased sprinting speed"
-    },
-    "tick_rate": 1,
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:sprinting"
-        },
-        {
-          "type": "origins:power_active",
-          "power": "*:*_toggle"
-        },
-        {
-          "type": "origins:in_rain",
-          "inverted": true
-        },
-        {
-          "type": "origins:in_block",
-          "block_condition": {
-            "type": "origins:block",
-            "block": "minecraft:water"
-          },
-          "inverted": true
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+          "attribute": "minecraft:generic.step_height",
+          "value": 0.4,
+          "operation": "addition"
         }
-      ]
-    }
+      },
+      {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "addition",
+          "value": 0.2,
+          "name": "Increased sprinting speed"
+        },
+        "tick_rate": 1,
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:sprinting"
+            },
+            {
+              "type": "origins:power_active",
+              "power": "*:*_toggle"
+            },
+            {
+              "type": "origins:in_rain",
+              "inverted": true
+            },
+            {
+              "type": "origins:in_block",
+              "block_condition": {
+                "type": "origins:block",
+                "block": "minecraft:water"
+              },
+              "inverted": true
+            }
+          ]
+        }
+      }
+    ]
+
   }
 }

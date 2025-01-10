@@ -1,14 +1,15 @@
 {
-  "type": "origins:multiple",
   "hidden": true,
-    "sound": {
-      "entity_action": {
-        "type": "origins:play_sound",
-        "sound": "minecraft:block.slime_block.break"
-      },
-      "condition": {
-        "type": "origins:power_active",
-        "power": "limeorigins:slimy_reserve"
-      }
-    }
+  "type": "origins:active_self",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "limeorigins:slimy_reserve"
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "entity_action": {
+    "type": "origins:play_sound",
+    "sound": "minecraft:block.honey_block.hit"
+  }
 }
