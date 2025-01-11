@@ -1,1 +1,1 @@
-schedule function limeorigins:load_delayed 200t
+schedule function limeorigins:load_delayed 40t
