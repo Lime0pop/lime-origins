@@ -1,8 +1,10 @@
 {
   "powers": [
     "limeorigins:iron_smash",
-    "limeorigins:golemlike",
-    "limeorigins:high_fall"
+    "limeorigins:protector_sense",
+    "limeorigins:repair",
+    "limeorigins:high_fall",
+    "limeorigins:golemlike"
   ],
   "icon": "minecraft:iron_block",
   "order": 1,

@@ -1,0 +1,27 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "on": {
+    "type": "origins:active_self",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "limeorigins:supersonic_speed"
+    },
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.blaze.shoot"
+    }
+  },
+  "off": {
+    "type": "origins:active_self",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "limeorigins:supersonic_speed",
+      "inverted": true
+    },
+    "entity_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:block.fire.extinguish"
+    }
+  }
+}

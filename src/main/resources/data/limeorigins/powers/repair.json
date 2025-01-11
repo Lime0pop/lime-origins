@@ -1,0 +1,53 @@
+{
+  "name": "Repair",
+  "description": "Your iron body can be repaired using iron ingots, restoring 4 hearts.",
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.use"
+  },
+  "cooldown": 400,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 9
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:heal",
+        "amount": 8
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:block.anvil.use"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s iron_ingot 1"
+      }
+    ]
+  },
+  "condtion": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "ingredient",
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          }
+        }
+      },
+      {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 19
+      }
+    ]
+  }
+}

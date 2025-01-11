@@ -1,0 +1,1 @@
+schedule function minecraft:delay_load 10

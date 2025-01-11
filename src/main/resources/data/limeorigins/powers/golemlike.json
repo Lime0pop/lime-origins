@@ -43,8 +43,8 @@
   "air_speed": {
     "type": "origins:modify_air_speed",
     "modifier": {
-      "operation": "addition",
-      "value": -0.05
+      "operation": "multiply_total",
+      "value": 0.25
     }
   }
 }
