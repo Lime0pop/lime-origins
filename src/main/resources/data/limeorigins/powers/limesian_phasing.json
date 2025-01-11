@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Phasing",
-  "description": "Like through solid matter like it's air.",
+  "description": "Phase through solid matter like it's air.",
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,
