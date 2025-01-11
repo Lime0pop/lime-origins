@@ -81,3 +81,4 @@ execute in limeorigins:pocket_dim_18 run fill 504 96 496 496 102 504 bedrock hol
 execute in limeorigins:pocket_dim_19 run fill 504 96 496 496 102 504 bedrock hollow
 execute in limeorigins:pocket_dim_20 run fill 504 96 496 496 102 504 bedrock hollow
 say Scoreboards loaded!
+say REMEMBER TO USE UPDATED KEYBINDS!!!

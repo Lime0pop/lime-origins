@@ -141,182 +141,242 @@
             "actions": [
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_1 matches 0",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_1 matches 0 run function limeorigins:dimcreate1"
+                  "command": "function limeorigins:dimcreate1"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_2",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_2 matches 0 run function limeorigins:dimcreate2"
+                  "command": "function limeorigins:dimcreate2"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_3",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_3 matches 0 run function limeorigins:dimcreate3"
+                  "command": "function limeorigins:dimcreate3"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_4",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_4 matches 0 run function limeorigins:dimcreate4"
+                  "command": "function limeorigins:dimcreate4"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_5",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_5 matches 0 run function limeorigins:dimcreate5"
+                  "command": "function limeorigins:dimcreate5"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_6",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_6 matches 0 run function limeorigins:dimcreate6"
+                  "command": "function limeorigins:dimcreate6"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_7",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_7 matches 0 run function limeorigins:dimcreate7"
+                  "command": "function limeorigins:dimcreate7"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_8",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_8 matches 0 run function limeorigins:dimcreate8"
+                  "command": "function limeorigins:dimcreate8"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_9",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_9 matches 0 run function limeorigins:dimcreate9"
+                  "command": "function limeorigins:dimcreate9"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_10",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_10 matches 0 run function limeorigins:dimcreate10"
+                  "command": "function limeorigins:dimcreate10"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_11",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_11 matches 0 run function limeorigins:dimcreate11"
+                  "command": "function limeorigins:dimcreate11"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_12",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_12 matches 0 run function limeorigins:dimcreate12"
+                  "command": "function limeorigins:dimcreate12"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_13",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_13 matches 0 run function limeorigins:dimcreate13"
+                  "command": "function limeorigins:dimcreate13"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_14",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_14 matches 0 run function limeorigins:dimcreate14"
+                  "command": "function limeorigins:dimcreate14"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_15",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_15 matches 0 run function limeorigins:dimcreate15"
+                  "command": "function limeorigins:dimcreate15"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_16",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_16 matches 0 run function limeorigins:dimcreate16"
+                  "command": "function limeorigins:dimcreate16"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_17",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_17 matches 0 run function limeorigins:dimcreate17"
+                  "command": "function limeorigins:dimcreate17"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_18",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_18 matches 0 run function limeorigins:dimcreate18"
+                  "command": "function limeorigins:dimcreate18"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_19",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_19 matches 0 run function limeorigins:dimcreate19"
+                  "command": "function limeorigins:dimcreate19"
                 }
               },
               {
                 "condition": {
-                  "type": "origins:exists"
+                  "type": "origins:command",
+                  "command": "execute if score #global dim_20",
+                  "comparison": "==",
+                  "compare_to": 1
                 },
                 "action": {
                   "type": "origins:execute_command",
-                  "command": "execute if score #global dim_20 matches 0 run function limeorigins:dimcreate20"
+                  "command": "function limeorigins:dimcreate20"
                 }
               }
             ]
