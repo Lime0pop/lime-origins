@@ -141,10 +141,21 @@
             "actions": [
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_1 matches 0",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_1 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -153,10 +164,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_2",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_2 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -165,10 +187,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_3",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_3 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -177,10 +210,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_4",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_4 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -189,10 +233,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_5",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_5 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -201,10 +256,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_6",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_6 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -213,10 +279,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_7",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_7 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -225,10 +302,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_8",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_8 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -237,10 +325,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_9",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_9 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -249,10 +348,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_10",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_10 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -261,10 +371,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_11",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_11 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -273,10 +394,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_12",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_12 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -285,10 +417,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_13",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_13 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -297,10 +440,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_14",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_14 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -309,10 +463,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_15",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_15 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -321,10 +486,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_16",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_16 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -333,10 +509,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_17",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_17 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -345,10 +532,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_18",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_18 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -357,10 +555,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_19",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_19 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
@@ -369,10 +578,21 @@
               },
               {
                 "condition": {
-                  "type": "origins:command",
-                  "command": "execute if score #global dim_20",
-                  "comparison": "==",
-                  "compare_to": 1
+                  "type": "origins:and",
+                  "conditions": [
+                    {
+                      "type": "origins:scoreboard",
+                      "objective": "dim_owned",
+                      "comparison": "==",
+                      "compare_to": 0
+                    },
+                    {
+                      "type": "origins:command",
+                      "command": "execute if score #global dim_20 matches 0",
+                      "comparison": "==",
+                      "compare_to": 1
+                    }
+                  ]
                 },
                 "action": {
                   "type": "origins:execute_command",
