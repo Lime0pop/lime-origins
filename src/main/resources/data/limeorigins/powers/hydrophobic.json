@@ -1,7 +1,7 @@
 {
   "type": "origins:damage_over_time",
   "name": "Hydrophobic",
-  "description": "You are weak to water, because Sega doesn't have any biologists.",
+  "description": "You are weak to water, because apparently Sega doesn't have any biologists.",
   "interval": 20,
   "onset_delay": 1,
   "damage": 2,

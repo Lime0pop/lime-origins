@@ -31,7 +31,7 @@
     "condition": {
       "type": "origins:fall_distance",
       "comparison": ">",
-      "compare_to": 2
+      "compare_to": 3.5
     },
     "entity_action": {
       "type": "origins:if_else_list",
@@ -431,7 +431,7 @@
               {
                 "type": "origins:fall_distance",
                 "comparison": "<=",
-                "compare_to": 2
+                "compare_to": 1
               },
               {
                 "type": "origins:fall_distance",

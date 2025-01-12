@@ -1,7 +1,7 @@
 {
   "type": "origins:entity_glow",
   "name": "Spectral Vision",
-  "description": "Due to your amazing perceptions, you can sense living beings through obstructions.",
+  "description": "Due to your amazing perception, you can sense living beings through obstructions.",
   "condition": {
     "type": "origins:exists"
   },
