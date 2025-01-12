@@ -1,0 +1,21 @@
+execute as @a unless score @s dim_owned matches -2147483648..2147483647 run scoreboard players set @s dim_owned 0
+execute unless score #global dim_1 matches -2147483648..2147483647 run scoreboard players set #global dim_1 0
+execute unless score #global dim_2 matches -2147483648..2147483647 run scoreboard players set #global dim_2 0
+execute unless score #global dim_3 matches -2147483648..2147483647 run scoreboard players set #global dim_3 0
+execute unless score #global dim_4 matches -2147483648..2147483647 run scoreboard players set #global dim_4 0
+execute unless score #global dim_5 matches -2147483648..2147483647 run scoreboard players set #global dim_5 0
+execute unless score #global dim_6 matches -2147483648..2147483647 run scoreboard players set #global dim_6 0
+execute unless score #global dim_7 matches -2147483648..2147483647 run scoreboard players set #global dim_7 0
+execute unless score #global dim_8 matches -2147483648..2147483647 run scoreboard players set #global dim_8 0
+execute unless score #global dim_9 matches -2147483648..2147483647 run scoreboard players set #global dim_9 0
+execute unless score #global dim_10 matches -2147483648..2147483647 run scoreboard players set #global dim_10 0
+execute unless score #global dim_11 matches -2147483648..2147483647 run scoreboard players set #global dim_11 0
+execute unless score #global dim_12 matches -2147483648..2147483647 run scoreboard players set #global dim_12 0
+execute unless score #global dim_13 matches -2147483648..2147483647 run scoreboard players set #global dim_13 0
+execute unless score #global dim_14 matches -2147483648..2147483647 run scoreboard players set #global dim_14 0
+execute unless score #global dim_15 matches -2147483648..2147483647 run scoreboard players set #global dim_15 0
+execute unless score #global dim_16 matches -2147483648..2147483647 run scoreboard players set #global dim_16 0
+execute unless score #global dim_17 matches -2147483648..2147483647 run scoreboard players set #global dim_17 0
+execute unless score #global dim_18 matches -2147483648..2147483647 run scoreboard players set #global dim_18 0
+execute unless score #global dim_19 matches -2147483648..2147483647 run scoreboard players set #global dim_19 0
+execute unless score #global dim_20 matches -2147483648..2147483647 run scoreboard players set #global dim_20 0

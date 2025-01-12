@@ -45,8 +45,8 @@
       },
       {
         "type": "origins:health",
-        "comparison": "<=",
-        "compare_to": 19
+        "comparison": "<",
+        "compare_to": 40
       }
     ]
   }
